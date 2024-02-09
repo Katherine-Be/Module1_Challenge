@@ -11,7 +11,7 @@
 <body>
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav>
+        <nav><!--replaced div with semantic nav since it only contains links-->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,10 +24,10 @@
                 </li>
             </ul>
         </nav>
-    </header>
-    <figure class="hero"></figure>
-    <section class="content">
-        <!-- Added alt text for images -->
+</header><!-- Replaced div with semantic header and removed class of "header" since css specified elements within header -->
+    <figure class="hero"></figure><!--replaced div with more accurate semantic figure element-->
+    <section class="content"><!--replaced div with semantic section element-->
+        <!-- Replaced divs with semantic article elements, added alt text for images -->
         <article class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="A notebook with 'SEO, backlink, content, headings, link building, social media, and mobile compatability' written on the page." class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -50,7 +50,8 @@
             </p>
         </article>
     </section>
-    <aside class="benefits">
+    <aside class="benefits"><!--Replaced div with semantic aside element-->
+        <!-- Replaced divs with semantic article elements-->
         <article class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -73,7 +74,7 @@
             </p>
         </article>
     </aside>
-    <footer>
+    <footer><!-- Replaced div with semantic footer and removed class of "footer"-->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
